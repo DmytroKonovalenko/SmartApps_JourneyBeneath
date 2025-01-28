@@ -1,0 +1,1951 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'uk' Physical Memory: 16288 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editors\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/SoftTeam/Repozitories/SmartApps_JourneyBeneath/JourneyBeneath
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+60285
+Successfully changed project path to: D:/SoftTeam/Repozitories/SmartApps_JourneyBeneath/JourneyBeneath
+D:/SoftTeam/Repozitories/SmartApps_JourneyBeneath/JourneyBeneath
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11496] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1808512289 [EditorId] 1808512289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11496] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1808512289 [EditorId] 1808512289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M5RIVGM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 10.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path D:/Unity/Editors/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SoftTeam/Repozitories/SmartApps_JourneyBeneath/JourneyBeneath/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity/Editors/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editors/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editors/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008644 seconds.
+- Loaded All Assemblies, in  0.281 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 186 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 734ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (291ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (66.9 KB). Loaded Objects now: 2710.
+Memory consumption went from 111.6 MB to 111.6 MB.
+Total: 3.502800 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.096800 ms MarkObjects: 3.059700 ms  DeleteObjects: 0.166400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DoNotObfuscateMethodBodyAttribute.cs: 17ab7b1600c958c02ba39266c6768dbb -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/ObfuscateAnywayAttribute.cs: 8bbfcf0d578cb3d5310ac163822212d9 -> 
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DoNotUseClassForFakeCodeAttribute.cs: 657aa72d916e8e415125fc23169081f7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/DoNotObfuscateClassAttribute.cs: 2f06464c860176ae45441ace1df888e5 -> 
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:scripting/monoscript/fileName/DoNotRenameAttribute.cs: 170b1d1ee4771f5fabb545b177da6760 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:scripting/monoscript/fileName/BuildPostProcessor.cs: ed0b1cacba68425585f594d63f56272a -> 923577cce5cfad3b8cf8496e490fa627
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/NotObfuscatedCauseAttribute.cs: 8a89115567ddd415235fc6597b3f8098 -> 
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Import Request.
+  Time since last request: 972799.222835 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/75kBo9Hzz0WPCE5qv4YJOg.png
+  artifactKey: Guid(b0d02dcccc7aeec4ab823344b6ae02ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/75kBo9Hzz0WPCE5qv4YJOg.png using Guid(b0d02dcccc7aeec4ab823344b6ae02ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '007879a20b980167beadcb04a2b28897') in 0.062385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/2uM23Bx6rEeJv3aXmZzObg.png
+  artifactKey: Guid(8565432dc3e9f4a4bba91875dc1a7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/2uM23Bx6rEeJv3aXmZzObg.png using Guid(8565432dc3e9f4a4bba91875dc1a7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33d9950add0709e107aa1ef3fc75c061') in 0.013775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/oVaIcIz8LUjmEKJhndvvQ.png
+  artifactKey: Guid(4b8107dba3486424ea4d642fe01b8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/oVaIcIz8LUjmEKJhndvvQ.png using Guid(4b8107dba3486424ea4d642fe01b8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b72974615b379345b4462ab4cb007c4f') in 0.023485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/qqaMwhem6k6OKwgOCA0gg.png
+  artifactKey: Guid(b72e876a6c796a445aa942f043b18e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/qqaMwhem6k6OKwgOCA0gg.png using Guid(b72e876a6c796a445aa942f043b18e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73c8b7ee2045beb7bd9523f11186294a') in 0.013892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/3m9DkiaYEqQMI0hDGtROQ.png
+  artifactKey: Guid(244e111d1ff6a9f4790e2c6add648ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/3m9DkiaYEqQMI0hDGtROQ.png using Guid(244e111d1ff6a9f4790e2c6add648ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01db6f7ce0a143bf7a57ed7c83530e04') in 0.013918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/axRqxz7ekuDWWVe3wt7Cw.png
+  artifactKey: Guid(8f654fe40e4aea44db44e73ca96e069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/axRqxz7ekuDWWVe3wt7Cw.png using Guid(8f654fe40e4aea44db44e73ca96e069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b3519de6ebbdd35905eaadcafab092d') in 0.017265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/b14RLPMqnUqhXOPEJyhLaw.png
+  artifactKey: Guid(d6733c7c99fa3f14e9c8ddf77d1fd21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/b14RLPMqnUqhXOPEJyhLaw.png using Guid(d6733c7c99fa3f14e9c8ddf77d1fd21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29454b6fa71a797092933ddebc71ca5a') in 0.013264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/gqhUmDNlF06W57QzF8WGkg.png
+  artifactKey: Guid(bc3ef02b8a6919f409ab4132ed4ecb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/gqhUmDNlF06W57QzF8WGkg.png using Guid(bc3ef02b8a6919f409ab4132ed4ecb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd3c04e25be6e66631df167564349266') in 0.013493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/point.png
+  artifactKey: Guid(4f0baea9f6f285848b71ecb942c620a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/point.png using Guid(4f0baea9f6f285848b71ecb942c620a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0686627f4b0465dcdd4afabbffaf0608') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/vjzdM2SdvEK7M93IvxHsw.png
+  artifactKey: Guid(db0f5c1354dcfca48a96645845cef117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/vjzdM2SdvEK7M93IvxHsw.png using Guid(db0f5c1354dcfca48a96645845cef117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '97410b8fc4597d0e823d42d412cad333') in 0.013508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/RaYdsWae4UaDeEPfGP7VNQ.png
+  artifactKey: Guid(43513b0c43e8d934ab1656d27b1c11e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/h5YrI6clc0yM0bbjEudFQg/RaYdsWae4UaDeEPfGP7VNQ.png using Guid(43513b0c43e8d934ab1656d27b1c11e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cbf97e3637885126751ed07636763b2') in 0.014259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 50.505492 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/03-loose.psd
+  artifactKey: Guid(ac28a4e8827cfa743a5b3085a81ad79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/03-loose.psd using Guid(ac28a4e8827cfa743a5b3085a81ad79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b1a8629bb2d990b119e4f9dde0269d5b') in 0.097593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/07-window-frame.psd
+  artifactKey: Guid(a540c7b757291034c94719c943de4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/07-window-frame.psd using Guid(a540c7b757291034c94719c943de4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb848ef489e9574794ec9c3f6086046b') in 0.070296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/f4JTePehn0u4d4Of7eXkPg.psd
+  artifactKey: Guid(3b6252f896b1e254dbed8c9bdc722013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/6fu95hz0k2AKp6zLFULDQ/f4JTePehn0u4d4Of7eXkPg.psd using Guid(3b6252f896b1e254dbed8c9bdc722013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68cf5cfb03909b4f5fea3e9bb09c4462') in 0.065753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.848921 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/1osY02H8hkSH53Lr01ppTQ.png
+  artifactKey: Guid(354af147d9b153e4cbf38f949c2324db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/1osY02H8hkSH53Lr01ppTQ.png using Guid(354af147d9b153e4cbf38f949c2324db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c80bed59c5d8e7bba42af59826a5a016') in 0.018884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/dFjaYu3IzUqZQEPvOOyHZA.png
+  artifactKey: Guid(32fc9b386b25f7e4b8c4ef3700dbba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/dFjaYu3IzUqZQEPvOOyHZA.png using Guid(32fc9b386b25f7e4b8c4ef3700dbba55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3f341f8b0b0bb564950ccc390d09c77') in 0.014275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AATiWlpzEmFYAWadgo9Ng.png
+  artifactKey: Guid(7df7023e66cdc98478dacf6742e09528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AATiWlpzEmFYAWadgo9Ng.png using Guid(7df7023e66cdc98478dacf6742e09528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bdc1bfa8f047319b1977549ceb31786') in 0.084270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Bh9ox3Z2TUi055PFHxwbPg.png
+  artifactKey: Guid(6aeaab7ba5572514c8f28c6c606e299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Bh9ox3Z2TUi055PFHxwbPg.png using Guid(6aeaab7ba5572514c8f28c6c606e299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '653c422e73279507f29fd87ed0461b40') in 0.063440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/4Pc5kiB0iKlQoNdSADDA.png
+  artifactKey: Guid(4b3e3dce1923f484c84b8a5041b36144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/4Pc5kiB0iKlQoNdSADDA.png using Guid(4b3e3dce1923f484c84b8a5041b36144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbd1bf2a50ba735a1f4005db8c790d91') in 0.028535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/DFoaF8GsX06q9dxQje2v8A.png
+  artifactKey: Guid(68fca855af59c744caf3d60cac0b80f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/DFoaF8GsX06q9dxQje2v8A.png using Guid(68fca855af59c744caf3d60cac0b80f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89dd7b8294b0fce30e5bd71359b0a71c') in 0.012964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/98ZBJtAeg0xZtKKWlb2BA.png
+  artifactKey: Guid(9373c980ba2566246aee7236c4fda05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/98ZBJtAeg0xZtKKWlb2BA.png using Guid(9373c980ba2566246aee7236c4fda05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a02194872d0ebd125054f142eae9352') in 0.012845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Gu5zLQGXPEesFbzWKOkhQ.png
+  artifactKey: Guid(c67bed4732f55ed458c8475d7d9b5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Gu5zLQGXPEesFbzWKOkhQ.png using Guid(c67bed4732f55ed458c8475d7d9b5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd809388d72d52af401bcb38a25227178') in 0.013228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/HHxqxGoZak2C8YoUs9blPg.png
+  artifactKey: Guid(7f6dea766a6f9494988dc401716b6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/HHxqxGoZak2C8YoUs9blPg.png using Guid(7f6dea766a6f9494988dc401716b6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '077069a9edf8ef3f8cca6537b9073ea2') in 0.013009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/egRt9mkUbU2OSbFFasEPeA.png
+  artifactKey: Guid(ada47a95d6ca2f049b29f5f3a7120001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/egRt9mkUbU2OSbFFasEPeA.png using Guid(ada47a95d6ca2f049b29f5f3a7120001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9731578d470109e8f69d3698a4f833de') in 0.013227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/gXKmXNsaGUS2JhPN7oiOOg.png
+  artifactKey: Guid(4eccb4c010b6ab4498ffaa8e09b195e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/gXKmXNsaGUS2JhPN7oiOOg.png using Guid(4eccb4c010b6ab4498ffaa8e09b195e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0aa317c706e253249d57b3ef292884cd') in 0.012304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AVOTl6NrLkmHvtBYy2gVVQ.png
+  artifactKey: Guid(fae6fdfd05cb98d499b0d2cc33bc13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AVOTl6NrLkmHvtBYy2gVVQ.png using Guid(fae6fdfd05cb98d499b0d2cc33bc13f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49795cea3f9dec912db71991db317c5d') in 0.012583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/7hL7FBJnU2QwaOjZjx67Q.png
+  artifactKey: Guid(a345d22138df6394fa21dce7baded692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/7hL7FBJnU2QwaOjZjx67Q.png using Guid(a345d22138df6394fa21dce7baded692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8138b7a6890d088c7d4c640595d2382') in 0.012418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/2m8IE1T200iI1Q95DDsZw.png
+  artifactKey: Guid(32dd41b104ba76547b0d8f3dff2088f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/2m8IE1T200iI1Q95DDsZw.png using Guid(32dd41b104ba76547b0d8f3dff2088f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '746b501fb57e6c1477194fddcc5d8227') in 0.012687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/DiQm5YOcSEywS9tHO78MbA.png
+  artifactKey: Guid(c0b73b72069ea7d47897ac441293f117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/DiQm5YOcSEywS9tHO78MbA.png using Guid(c0b73b72069ea7d47897ac441293f117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0f1b95fdfd0e93383ad34651d4150b3c') in 0.013188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/fcJJ5cNYCk6MEAXtPqMLQ.png
+  artifactKey: Guid(ece252dad202067458bcc19fc3ed2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/fcJJ5cNYCk6MEAXtPqMLQ.png using Guid(ece252dad202067458bcc19fc3ed2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd00a4ef70d677964650df98a2664878f') in 0.012752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/i2l8MZDmVkCYmszb0QPIeg.png
+  artifactKey: Guid(733e9027e5abf5c4e9db309689f653cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/i2l8MZDmVkCYmszb0QPIeg.png using Guid(733e9027e5abf5c4e9db309689f653cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bcedcafeb2d009dca2dea4288ac5a327') in 0.012622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/3yPuGSWcaE6eTBIp4lDUQ.png
+  artifactKey: Guid(2be13e77e303bbd44a64c6b33b072310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/3yPuGSWcaE6eTBIp4lDUQ.png using Guid(2be13e77e303bbd44a64c6b33b072310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e7a08e296fcc98acd30634addc8c410') in 0.013147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/HhJMgKhDf0y3qH0YP8tKow.png
+  artifactKey: Guid(b4f4e393b464f1341b9493a2e4578325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/HhJMgKhDf0y3qH0YP8tKow.png using Guid(b4f4e393b464f1341b9493a2e4578325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f7ebcdae73c9439983546de3807e95e') in 0.012014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/87plOvwQ4UWsHbp76p9TUA.png
+  artifactKey: Guid(939c0c7e1038030438eaef39ced76b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/87plOvwQ4UWsHbp76p9TUA.png using Guid(939c0c7e1038030438eaef39ced76b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '593abdad0df7dcb5e15002de2930f6fe') in 0.013093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/6QcaUVMblE624XidbsNwgg.png
+  artifactKey: Guid(8a53ef9c582ef58449cdcd311e24f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/6QcaUVMblE624XidbsNwgg.png using Guid(8a53ef9c582ef58449cdcd311e24f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0746d47e2110fccb8ff342ee83880053') in 0.013831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AfIeQbKIxU6cPc5fk5Luqg.png
+  artifactKey: Guid(6e5edeffaf1159940acf23b08b5cb711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/AfIeQbKIxU6cPc5fk5Luqg.png using Guid(6e5edeffaf1159940acf23b08b5cb711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b7b491ae1d349ad4ac1677c4c5bfd36') in 0.012437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/cA7AWfMBOUG5sIaXS3TVw.png
+  artifactKey: Guid(c4ce857f5bf0fe846becd5ec02fda62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/cA7AWfMBOUG5sIaXS3TVw.png using Guid(c4ce857f5bf0fe846becd5ec02fda62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2b67ad0522ac47e410daf674a8d8ced') in 0.013250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/571bzBcAPUSzWD1Rt2QLw.png
+  artifactKey: Guid(5ddef2620ac5d8f4aa53ae51ef658705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/571bzBcAPUSzWD1Rt2QLw.png using Guid(5ddef2620ac5d8f4aa53ae51ef658705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9541dcb03217f5f7bed0afe1d48a726b') in 0.013655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/5c4VWW31HkKkdxX6slvXQg.png
+  artifactKey: Guid(9c4e564bdf8dc3445b4a41a6deb868c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/5c4VWW31HkKkdxX6slvXQg.png using Guid(9c4e564bdf8dc3445b4a41a6deb868c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a379a327fe702d3e3d1282ba5ceeb99') in 0.011663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.391964 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/IMgfUSBrUSnBF1C9meczQ.png
+  artifactKey: Guid(1bbf451a92fe65641b2be22aa530c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/IMgfUSBrUSnBF1C9meczQ.png using Guid(1bbf451a92fe65641b2be22aa530c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '116139e56e916f84f7f4e1daf1769c92') in 0.012456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/jVRkTxWzmkeQCNNS0HRFAA.png
+  artifactKey: Guid(ae66a831ab4ab404a9bc81d8d998e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/jVRkTxWzmkeQCNNS0HRFAA.png using Guid(ae66a831ab4ab404a9bc81d8d998e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd29e13f54b9fab8896bf5221f09bb139') in 0.012842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/IzvjFNy4n0yMDRBjHkHqw.png
+  artifactKey: Guid(6d1dbe7cdd5f3fc4bb03d80e7e2bcc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/IzvjFNy4n0yMDRBjHkHqw.png using Guid(6d1dbe7cdd5f3fc4bb03d80e7e2bcc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b239d1a60245ab564b385f430fdff61') in 0.013970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/koDNV5EtlUepgcFDPgAFHA.png
+  artifactKey: Guid(50c0edf969df45f4ba12f492e0843e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/koDNV5EtlUepgcFDPgAFHA.png using Guid(50c0edf969df45f4ba12f492e0843e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ba50dbd72d25825020f4d1c5dae8305a') in 0.012652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Kq7A1EDzvEym0Rmp44kj5w.png
+  artifactKey: Guid(e14edd660758ba84985e992acef5368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Kq7A1EDzvEym0Rmp44kj5w.png using Guid(e14edd660758ba84985e992acef5368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6bd3b7a23a532314beb9e0b290e01f28') in 0.013975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/kCF2I7CFZEtvkCgaL5TcQ.png
+  artifactKey: Guid(d5bfee177dcdc19468d0205bf5a08981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/kCF2I7CFZEtvkCgaL5TcQ.png using Guid(d5bfee177dcdc19468d0205bf5a08981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6cb6d6f0f2c40700c3b77f61f4e8e70') in 0.013535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/j9JlLCZCVkKxpzUphuP1TQ.png
+  artifactKey: Guid(f41d1c1f19a3aaf44b94dc3cbf71f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/j9JlLCZCVkKxpzUphuP1TQ.png using Guid(f41d1c1f19a3aaf44b94dc3cbf71f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e14d7e6cbdd3c9c1dcab4347a461fdc5') in 0.013675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/KnrBrZcMiE2BAHYQmv1yhg.png
+  artifactKey: Guid(103c92fb29dc2464fa4bb3e269c05097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/KnrBrZcMiE2BAHYQmv1yhg.png using Guid(103c92fb29dc2464fa4bb3e269c05097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e2f7703e08bed41300477c52dbaeebe') in 0.015069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.450138 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/lXj2GJgW0kiOsAlFm2Si9A.png
+  artifactKey: Guid(71cd01305ccdcb04bb41a8ed9da3d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/lXj2GJgW0kiOsAlFm2Si9A.png using Guid(71cd01305ccdcb04bb41a8ed9da3d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '690d3eb403f0c155f452fd7710685767') in 0.016656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/nvC9ZzK5wEKwKqTdYH27g.png
+  artifactKey: Guid(3b5ad9903ec6bf44dbae18614b926aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/nvC9ZzK5wEKwKqTdYH27g.png using Guid(3b5ad9903ec6bf44dbae18614b926aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7fa9688e64314901b62d11c871d1ecf') in 0.012372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/n3EE3VMV5EKWrWBLz1K8Ug.png
+  artifactKey: Guid(a97d4f8a2969f3148bfc1da13a7ef0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/n3EE3VMV5EKWrWBLz1K8Ug.png using Guid(a97d4f8a2969f3148bfc1da13a7ef0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe918bfe4dc66d3d53ddff7cdff6904') in 0.013252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/oeRCldLWgUedKiwXURjOg.png
+  artifactKey: Guid(fe70ac4b8794ca243a1a0c53df6d0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/oeRCldLWgUedKiwXURjOg.png using Guid(fe70ac4b8794ca243a1a0c53df6d0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1af53f25c6a00c6ade9d85a7ab913460') in 0.011633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016854 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/PhItOajeGk6Sb6nVROJlw.png
+  artifactKey: Guid(308853895b2acb54f82bf1718d895728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/PhItOajeGk6Sb6nVROJlw.png using Guid(308853895b2acb54f82bf1718d895728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c313bc03380c0b4f5ed5c101af725e56') in 0.012303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Qaal9gfsD0pU0brmeOgfQ.png
+  artifactKey: Guid(583be473138fb40468731fd673443893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Qaal9gfsD0pU0brmeOgfQ.png using Guid(583be473138fb40468731fd673443893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '739b09d909a24cb05a34b286883f020e') in 0.013191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/q41XfPtN50Wyau8Z1uEWPg.png
+  artifactKey: Guid(0460cdd452f92e343a3476ef5a27a42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/q41XfPtN50Wyau8Z1uEWPg.png using Guid(0460cdd452f92e343a3476ef5a27a42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '812a4111d08c6298b27eaf5eb2063506') in 0.012260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/PLtW33APREG9xLD6qxj7nA.png
+  artifactKey: Guid(9ae35a21d3f0bad4db87a868a5bbf72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/PLtW33APREG9xLD6qxj7nA.png using Guid(9ae35a21d3f0bad4db87a868a5bbf72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9007c2104dd2eac87465f842b9c0c831') in 0.015409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.235274 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/RT68bxqGEUmFYXijb3RE8g.png
+  artifactKey: Guid(651ed843b377f324680529df70030ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/RT68bxqGEUmFYXijb3RE8g.png using Guid(651ed843b377f324680529df70030ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dbdf8fadef9de71de64849bfebe7edff') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/t70JyEMaUkS7OUql93KCvA.png
+  artifactKey: Guid(d4068acce09c2e9419ba8471cf454e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/t70JyEMaUkS7OUql93KCvA.png using Guid(d4068acce09c2e9419ba8471cf454e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '985bb2613688870723a045590558eb4e') in 0.013736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/tgwA9MVwMUmjKN4Vu9SklQ.png
+  artifactKey: Guid(6a40e7cfda0d729498974fc3b457c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/tgwA9MVwMUmjKN4Vu9SklQ.png using Guid(6a40e7cfda0d729498974fc3b457c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8576a93182cc59832ef47bfca2560bf1') in 0.013962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Tt4VlKsX80yPBbFwhkAAZA.png
+  artifactKey: Guid(08eebbf73b02908429043e4af8ff15f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/Tt4VlKsX80yPBbFwhkAAZA.png using Guid(08eebbf73b02908429043e4af8ff15f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab88f9b87640018b29c006d22d1fdffb') in 0.012365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/uCtfPpwUhECEZd6F4zhD3Q.png
+  artifactKey: Guid(267fc16c50b15e54fba0d496b5dbf019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/uCtfPpwUhECEZd6F4zhD3Q.png using Guid(267fc16c50b15e54fba0d496b5dbf019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '907106b0278360e04001fc1477fdd224') in 0.012390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/VACIQbWiUGm7wIx8EBNFw.png
+  artifactKey: Guid(93e635201ca76c7438effdfa834fe855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/VACIQbWiUGm7wIx8EBNFw.png using Guid(93e635201ca76c7438effdfa834fe855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4479f20f345600f811b6d83c429514c0') in 0.013990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/UV6bkXmBlUGwC8w8y7xK5w.png
+  artifactKey: Guid(d37d77d8faf4eba4fb511aa3b27e063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/UV6bkXmBlUGwC8w8y7xK5w.png using Guid(d37d77d8faf4eba4fb511aa3b27e063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b01dab1832d385d3c100b1891955df0') in 0.013000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/t33b6cZElEanmBZn8A7EA.png
+  artifactKey: Guid(eedd203234f7ef04c9e19ea6c3217477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/t33b6cZElEanmBZn8A7EA.png using Guid(eedd203234f7ef04c9e19ea6c3217477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '447a657a0fa6c8b66c311233c57e205f') in 0.011844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/ueaYfpwbek6J2y1kODDLrw.png
+  artifactKey: Guid(ba35a251f5bf54b46861602abfe232b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/ueaYfpwbek6J2y1kODDLrw.png using Guid(ba35a251f5bf54b46861602abfe232b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89e98534d93f31770173f1a518401785') in 0.011222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/WA2n6ppaPEm0EyhcEwV37Q.png
+  artifactKey: Guid(9028491c586d9ba469c43af3fbb7e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/WA2n6ppaPEm0EyhcEwV37Q.png using Guid(9028491c586d9ba469c43af3fbb7e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a417f190905adb496b9685bdd8a3e0cf') in 0.011886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/yRBeI6zFUt7QEiOsoJsA.png
+  artifactKey: Guid(8ba487239ac60144793ef45bf6818f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/yRBeI6zFUt7QEiOsoJsA.png using Guid(8ba487239ac60144793ef45bf6818f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4c052c33b311098f718c81194936ae7') in 0.013799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/WzoHURB0SchCNN0lt3kA.png
+  artifactKey: Guid(55138eae680adce47ae097ecc97274bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/WzoHURB0SchCNN0lt3kA.png using Guid(55138eae680adce47ae097ecc97274bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68af9318b972748c12632527accd37b3') in 0.012925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/xppMWpVjnUyCosNVRW378w.png
+  artifactKey: Guid(6bc239fe75d198e40bc3c6345559dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/xppMWpVjnUyCosNVRW378w.png using Guid(6bc239fe75d198e40bc3c6345559dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2cb817859034dbb242526e454bcf7eb') in 0.013052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.213060 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/zWTBOdwK9UaMNbG0dAh9jA.png
+  artifactKey: Guid(0e8994693875074478b15fc74b2b8e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/phQ5SwLtTE212SVtkl81Vg/zWTBOdwK9UaMNbG0dAh9jA.png using Guid(0e8994693875074478b15fc74b2b8e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dbce439c3c57aff647cb7cbb2d710dd1') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.777165 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/QnDr7guFcEWy0wkY3AWBWQ/N436uhp0XUunheaGEJLgag.mp3
+  artifactKey: Guid(f4665d128f3f6f94f9ab49d5578123f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/QnDr7guFcEWy0wkY3AWBWQ/N436uhp0XUunheaGEJLgag.mp3 using Guid(f4665d128f3f6f94f9ab49d5578123f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4aa5a932eabbb8a40eefc6252bce140') in 0.051261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/QnDr7guFcEWy0wkY3AWBWQ/ZtnJ0NpuJkLQcu9hvq3Q.mp3
+  artifactKey: Guid(00896a626b850504c858ce7714d7a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Sprites/1G5qblXlPkyloKEktnfbJw/QnDr7guFcEWy0wkY3AWBWQ/ZtnJ0NpuJkLQcu9hvq3Q.mp3 using Guid(00896a626b850504c858ce7714d7a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66b45ce2c62229eb2f6063051f82bd28') in 0.028677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.918899 seconds.
+  path: Assets/asfasdf/Graphics/2De9Ts8lfk20igesyvpVrg.png
+  artifactKey: Guid(581c352eee5d3bc43b9b14f6b97844d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Graphics/2De9Ts8lfk20igesyvpVrg.png using Guid(581c352eee5d3bc43b9b14f6b97844d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9155d44c9c1c27ff5945aca796a9a979') in 0.011891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Graphics/WRycy54vXUO6cKbto55Y2A.png
+  artifactKey: Guid(541b8207fa5ef7a43a02a25a9bcb569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Graphics/WRycy54vXUO6cKbto55Y2A.png using Guid(541b8207fa5ef7a43a02a25a9bcb569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '807414a96b92e524f4e0ddd8dd72eeb9') in 0.011865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/asfasdf/Graphics/dwXQBP2yuECOWGp2dQv6ng.png
+  artifactKey: Guid(560f43da709fcbb479149f9d990cdb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Graphics/dwXQBP2yuECOWGp2dQv6ng.png using Guid(560f43da709fcbb479149f9d990cdb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e9c9fc5f8ca3f46f3bcb72e8c204c92') in 0.050754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/asfasdf/Graphics/F12EiQOvwUKbqFmtMtPsfA.png
+  artifactKey: Guid(3c4272962e360db40803a6e8f71ef95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Graphics/F12EiQOvwUKbqFmtMtPsfA.png using Guid(3c4272962e360db40803a6e8f71ef95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0f319cc1566afa1aea6c0bcce525449') in 0.021042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/asfasdf/Graphics/gBum9kdwTkm4pLr7a0ghCg.png
+  artifactKey: Guid(016199b6ef002804db21723ae3b66638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Graphics/gBum9kdwTkm4pLr7a0ghCg.png using Guid(016199b6ef002804db21723ae3b66638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e92235ce6e421df63e81e9925ab014bc') in 0.036052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.122078 seconds.
+  path: Assets/asfasdf/Prefaps/3FZvNTNcw06RROCmzYGokg.mat
+  artifactKey: Guid(a7983024ab6041947a5fc7fba3a301bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asfasdf/Prefaps/3FZvNTNcw06RROCmzYGokg.mat using Guid(a7983024ab6041947a5fc7fba3a301bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c883d2b636014123db62eaf56edfcbd') in 0.031960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (659ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (40.9 KB). Loaded Objects now: 2844.
+Memory consumption went from 105.4 MB to 105.3 MB.
+Total: 2.627600 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.314000 ms  DeleteObjects: 0.056400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DoNotObfuscateMethodBodyAttribute.cs: 17ab7b1600c958c02ba39266c6768dbb -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/ObfuscateAnywayAttribute.cs: 8bbfcf0d578cb3d5310ac163822212d9 -> 
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DoNotUseClassForFakeCodeAttribute.cs: 657aa72d916e8e415125fc23169081f7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/DoNotObfuscateClassAttribute.cs: 2f06464c860176ae45441ace1df888e5 -> 
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:scripting/monoscript/fileName/DoNotRenameAttribute.cs: 170b1d1ee4771f5fabb545b177da6760 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:scripting/monoscript/fileName/BuildPostProcessor.cs: ed0b1cacba68425585f594d63f56272a -> 923577cce5cfad3b8cf8496e490fa627
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/NotObfuscatedCauseAttribute.cs: 8a89115567ddd415235fc6597b3f8098 -> 
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (42.1 KB). Loaded Objects now: 2845.
+Memory consumption went from 105.6 MB to 105.6 MB.
+Total: 2.514700 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.205900 ms  DeleteObjects: 0.056800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DoNotObfuscateMethodBodyAttribute.cs: 17ab7b1600c958c02ba39266c6768dbb -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/ObfuscateAnywayAttribute.cs: 8bbfcf0d578cb3d5310ac163822212d9 -> 
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DoNotUseClassForFakeCodeAttribute.cs: 657aa72d916e8e415125fc23169081f7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/DoNotObfuscateClassAttribute.cs: 2f06464c860176ae45441ace1df888e5 -> 
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:scripting/monoscript/fileName/DoNotRenameAttribute.cs: 170b1d1ee4771f5fabb545b177da6760 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:scripting/monoscript/fileName/BuildPostProcessor.cs: ed0b1cacba68425585f594d63f56272a -> 923577cce5cfad3b8cf8496e490fa627
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/NotObfuscatedCauseAttribute.cs: 8a89115567ddd415235fc6597b3f8098 -> 
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.396 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (19ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (37.5 KB). Loaded Objects now: 2848.
+Memory consumption went from 105.2 MB to 105.1 MB.
+Total: 2.650800 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.071100 ms MarkObjects: 2.373400 ms  DeleteObjects: 0.053100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DoNotObfuscateMethodBodyAttribute.cs: 17ab7b1600c958c02ba39266c6768dbb -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/ObfuscateAnywayAttribute.cs: 8bbfcf0d578cb3d5310ac163822212d9 -> 
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DoNotUseClassForFakeCodeAttribute.cs: 657aa72d916e8e415125fc23169081f7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/DoNotObfuscateClassAttribute.cs: 2f06464c860176ae45441ace1df888e5 -> 
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:scripting/monoscript/fileName/DoNotRenameAttribute.cs: 170b1d1ee4771f5fabb545b177da6760 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:scripting/monoscript/fileName/BuildPostProcessor.cs: ed0b1cacba68425585f594d63f56272a -> 923577cce5cfad3b8cf8496e490fa627
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/NotObfuscatedCauseAttribute.cs: 8a89115567ddd415235fc6597b3f8098 -> 
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.390 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 943ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (24ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (41.5 KB). Loaded Objects now: 2860.
+Memory consumption went from 105.8 MB to 105.7 MB.
+Total: 2.630000 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.306700 ms  DeleteObjects: 0.059000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 3.67 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 941ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (41.5 KB). Loaded Objects now: 2863.
+Memory consumption went from 105.8 MB to 105.7 MB.
+Total: 2.937300 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.548800 ms  DeleteObjects: 0.067400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2863.
+Memory consumption went from 71.3 MB to 71.3 MB.
+Total: 2.786400 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.526200 ms  DeleteObjects: 0.012000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2863.
+Memory consumption went from 71.2 MB to 71.2 MB.
+Total: 3.622300 ms (FindLiveObjects: 0.457300 ms CreateObjectMapping: 0.244900 ms MarkObjects: 2.898700 ms  DeleteObjects: 0.020400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 946ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (300ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (41.5 KB). Loaded Objects now: 2866.
+Memory consumption went from 105.8 MB to 105.8 MB.
+Total: 2.637800 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.332700 ms  DeleteObjects: 0.059500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 751ba1b45f2ca17c7061e23605aa867c -> ab0ed5c6292d0df02630ed1246c11960
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: 1df32dcca870c608d9e9a4c695f94734 -> bff6c08d456176ae408accc88698daea
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 97f61d52f3b6e76c4aba3e07d49335cf -> 76f643d73611c3fa790554c214b85dd8
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 8a74a6cafab0b5eb45e8ae59f0fa10df -> 86615b82d72d175186b135cbd745b50f
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: 5d65be017affd6041f8f20934e2440d4 -> fe7ffd6465caec09f8871c936b7ae010
+  custom:scripting/monoscript/fileName/GameManager.cs: c09e3ad9d03335f5f5edd2b9bac29a32 -> 7ce1a678f1e09524ab610ece950cb2c7
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: 2969773cad5181150d04f99fef01a743 -> ea495e697b6859037c6850e7d9484928
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 547fe49fe3257953b26a0867f1fe7f3d -> f70cdd76efb4bc1c4ce5a78d621c925b
+  custom:scripting/monoscript/fileName/ColorUI.cs: b66271bc56a82e0d1dd0a3d5563ea592 -> 2f5bad16930f827237d47ae85f843794
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: 20f09e8f72ece0a83689a1ce4d7c3079 -> 93a8bfa9d0905abd49710cef3df72166
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 2c761810ac93b2ef82206731b49e0cdb -> 5f69b3990d832ded72629dcb12b1dbfa
+  custom:scripting/monoscript/fileName/GridView.cs: d27c5393351a94ab9863691aa9e0859e -> d669d71247b21369fe73edf48d074e07
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: caa07b61ea72d053b89c89a1e343e451 -> 99a8bbdef995963f8af18103f30f9e26
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: e0e06579acc9ebd7a4392b79ddba9c1a -> 6d857e2d74239cb2977ab602ad26b2f6
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 0a2a62c4d206a596fefa9291d1f35849 -> 1d2d43a870b1604d50c062ed387f88c8
+  custom:scripting/monoscript/fileName/ShopController.cs: f7cf6c7d384927e81b4681b96fd23c60 -> a209ce2dd52ad71c8e01e6c2e34b7a76
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: a488975fcaf058b50ffd8722aff111b0 -> a5f58fca68809c512ff619983394f4f2
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 63332347ec2abd42b7f52ab8575b1bc9 -> d802a899a786380d8809e4d556cb184d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: 199baeecded625b6bf7f54568d06f077 -> 48b52d18bf2f6f87943780651f423475
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: 977ececed53b992692526aeb5129fac4 -> e6f7c2c8cc27b4e9441ce2ff45ada7cb
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 4df96a4f7c2f97d0acf6505adda0b8b0 -> 3a8c0adb363e4df715082fb938057c09
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 81c9d28d508e30a2bc4bff8b71f32517 -> c5552065d84a27658c6dfce36409f501
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: fc0693931521dc2d4389cb9a7d08986f -> 2cd839b22622fd3af1f43de9712f9e2b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: 244883367230ffdb9d0fa09f0e44b1da -> 43780635b7bc3ac6fd9d2e85404ade77
+  custom:scripting/monoscript/fileName/PopupSetting.cs: 38c07044df705f9ccbd2d7c43b92d62a -> 8edaaf46a1357e643aa5ffde6952a574
+  custom:scripting/monoscript/fileName/WindowManager.cs: 40d3c63b065a6163fecd8253051f2e19 -> 425a72083ac9b89e83cd047d1606b429
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: 8a65b5cf9a9811de16c412f821ce4e54 -> 8903340ffb4cb9f6ebcf174357b69138
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2eaff00ec097ff98fc4a49bda16059a2 -> 7fb290fe6aae5d0f3df2ddbdfb29b7c8
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: ee435bdaa402e78981d150a55aac04bd -> 58bfe69c7b6e0c2a21696c1a272f5909
+  custom:scripting/monoscript/fileName/GameColorManager.cs: f620c888b703762c8955998207f87fcb -> addd8eb4a079ca6039c6f230d0c5b1c0
+  custom:scripting/monoscript/fileName/ShopItem.cs: 431be0020e3f8b472e06f13b9dbebccc -> 7849b821bdd7fa0d9a78aa0e5f69cdbf
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/Unity/Editors/2022.3.37f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 929ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (41.5 KB). Loaded Objects now: 2869.
+Memory consumption went from 105.8 MB to 105.8 MB.
+Total: 2.594100 ms (FindLiveObjects: 0.159900 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.300200 ms  DeleteObjects: 0.056500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 1f7dc26226fc02687b460e73314cb7a8 -> 751ba1b45f2ca17c7061e23605aa867c
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: b3625b409f53e21cab9b1777da774933 -> 1df32dcca870c608d9e9a4c695f94734
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 1b4c4ab4b64cccf1ea9bc37a2d57dbd9 -> 97f61d52f3b6e76c4aba3e07d49335cf
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 1b30d4e8ec2dc478e1a2335cc20106f9 -> 8a74a6cafab0b5eb45e8ae59f0fa10df
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: eaa0d6f9dd5c4395be941dce4c31635b -> 5d65be017affd6041f8f20934e2440d4
+  custom:scripting/monoscript/fileName/GameManager.cs: 0b21025d1f43dfaf156abecc6eb25e38 -> c09e3ad9d03335f5f5edd2b9bac29a32
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: f919819f1c76b42340e5390749e13523 -> 2969773cad5181150d04f99fef01a743
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 1140726be73fa6f76de665c8b0cd999e -> 547fe49fe3257953b26a0867f1fe7f3d
+  custom:scripting/monoscript/fileName/ColorUI.cs: b0fddfc91ecce0134bb4c4d5aa82e469 -> b66271bc56a82e0d1dd0a3d5563ea592
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: c1a2a61e0289f727144a490da6d5b1b1 -> 20f09e8f72ece0a83689a1ce4d7c3079
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 6d37d57262b87cf26a334f3d35ad353a -> 2c761810ac93b2ef82206731b49e0cdb
+  custom:scripting/monoscript/fileName/GridView.cs: 0cd632ed0103e51dc7fb1db4a9f83dd9 -> d27c5393351a94ab9863691aa9e0859e
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: 17232e66a9757e5e681f50451dd9b36f -> caa07b61ea72d053b89c89a1e343e451
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: afc68be299170ca6b0629c3822839884 -> e0e06579acc9ebd7a4392b79ddba9c1a
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 01e7a295e04fe9d6389fe0f4109c5781 -> 0a2a62c4d206a596fefa9291d1f35849
+  custom:scripting/monoscript/fileName/ShopController.cs: 5d29189ad09a8b25635e906c6cd1bf4d -> f7cf6c7d384927e81b4681b96fd23c60
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: d622ef3e1efb31614179a85dfdaaa2c8 -> a488975fcaf058b50ffd8722aff111b0
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 085fd2a7b5061aee324dbfd8c57e1f23 -> 63332347ec2abd42b7f52ab8575b1bc9
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: a27b56085bb6b7c08b999d75b0d588af -> 199baeecded625b6bf7f54568d06f077
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: b17d457d7da53e2800933443d08dda7f -> 977ececed53b992692526aeb5129fac4
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 5d5f966200cceff9dcfc7273fe24aa24 -> 4df96a4f7c2f97d0acf6505adda0b8b0
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 63ec0e35da527e4d217ec68adce596d6 -> 81c9d28d508e30a2bc4bff8b71f32517
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: d9b34b6e0b8282f0177d038dbcc5feb2 -> fc0693931521dc2d4389cb9a7d08986f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: c1762dbaede4916837ce89fb16438598 -> 244883367230ffdb9d0fa09f0e44b1da
+  custom:scripting/monoscript/fileName/PopupSetting.cs: f293595e5cdad94fb8a0e777ff170ec9 -> 38c07044df705f9ccbd2d7c43b92d62a
+  custom:scripting/monoscript/fileName/WindowManager.cs: 32dd9d022ee6b46e96c3638ee9c5dc40 -> 40d3c63b065a6163fecd8253051f2e19
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: ebb4ffe200962fcf158171a6bc16cc89 -> 8a65b5cf9a9811de16c412f821ce4e54
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2283be8876f0e217dc7b1f83fb9dfd5f -> 2eaff00ec097ff98fc4a49bda16059a2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: 902a34234b29bb72265c3380635c54d8 -> ee435bdaa402e78981d150a55aac04bd
+  custom:scripting/monoscript/fileName/GameColorManager.cs: 6d4bfff1ec969d1633b687c53ae42cfb -> f620c888b703762c8955998207f87fcb
+  custom:scripting/monoscript/fileName/ShopItem.cs: 38343d640b81a93024555544923029c8 -> 431be0020e3f8b472e06f13b9dbebccc
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.74 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2869.
+Memory consumption went from 71.4 MB to 71.4 MB.
+Total: 2.993200 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.710800 ms  DeleteObjects: 0.015900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SimplePool.cs: 1f7dc26226fc02687b460e73314cb7a8 -> 751ba1b45f2ca17c7061e23605aa867c
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GameDefine.cs: b3625b409f53e21cab9b1777da774933 -> 1df32dcca870c608d9e9a4c695f94734
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/OneLineBlock.cs: 1b4c4ab4b64cccf1ea9bc37a2d57dbd9 -> 97f61d52f3b6e76c4aba3e07d49335cf
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CoinsController.cs: 1b30d4e8ec2dc478e1a2335cc20106f9 -> 8a74a6cafab0b5eb45e8ae59f0fa10df
+  custom:scripting/monoscript/fileName/LoadingPanel.cs: eaa0d6f9dd5c4395be941dce4c31635b -> 5d65be017affd6041f8f20934e2440d4
+  custom:scripting/monoscript/fileName/GameManager.cs: 0b21025d1f43dfaf156abecc6eb25e38 -> c09e3ad9d03335f5f5edd2b9bac29a32
+  custom:scripting/monoscript/fileName/GW_GAME_SELECT.cs: f919819f1c76b42340e5390749e13523 -> 2969773cad5181150d04f99fef01a743
+  custom:scripting/monoscript/fileName/PopupMyCharacter.cs: 1140726be73fa6f76de665c8b0cd999e -> 547fe49fe3257953b26a0867f1fe7f3d
+  custom:scripting/monoscript/fileName/ColorUI.cs: b0fddfc91ecce0134bb4c4d5aa82e469 -> b66271bc56a82e0d1dd0a3d5563ea592
+  custom:scripting/monoscript/fileName/LevelPackItem.cs: c1a2a61e0289f727144a490da6d5b1b1 -> 20f09e8f72ece0a83689a1ce4d7c3079
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShuffleList.cs: 6d37d57262b87cf26a334f3d35ad353a -> 2c761810ac93b2ef82206731b49e0cdb
+  custom:scripting/monoscript/fileName/GridView.cs: 0cd632ed0103e51dc7fb1db4a9f83dd9 -> d27c5393351a94ab9863691aa9e0859e
+  custom:scripting/monoscript/fileName/GameTypeConfig.cs: 17232e66a9757e5e681f50451dd9b36f -> caa07b61ea72d053b89c89a1e343e451
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TutorialPanel.cs: afc68be299170ca6b0629c3822839884 -> e0e06579acc9ebd7a4392b79ddba9c1a
+  custom:scripting/monoscript/fileName/GW_GAME_PLAY.cs: 01e7a295e04fe9d6389fe0f4109c5781 -> 0a2a62c4d206a596fefa9291d1f35849
+  custom:scripting/monoscript/fileName/ShopController.cs: 5d29189ad09a8b25635e906c6cd1bf4d -> f7cf6c7d384927e81b4681b96fd23c60
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PopupAnimation.cs: d622ef3e1efb31614179a85dfdaaa2c8 -> a488975fcaf058b50ffd8722aff111b0
+  custom:scripting/monoscript/fileName/OneLineGameplayControl.cs: 085fd2a7b5061aee324dbfd8c57e1f23 -> 63332347ec2abd42b7f52ab8575b1bc9
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GameColorDefine.cs: a27b56085bb6b7c08b999d75b0d588af -> 199baeecded625b6bf7f54568d06f077
+  custom:scripting/monoscript/fileName/InputFieldSaver.cs: b17d457d7da53e2800933443d08dda7f -> 977ececed53b992692526aeb5129fac4
+  custom:scripting/monoscript/fileName/GameSelectButton.cs: 5d5f966200cceff9dcfc7273fe24aa24 -> 4df96a4f7c2f97d0acf6505adda0b8b0
+  custom:scripting/monoscript/fileName/SelectLevelButton.cs: 63ec0e35da527e4d217ec68adce596d6 -> 81c9d28d508e30a2bc4bff8b71f32517
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PopupWin.cs: d9b34b6e0b8282f0177d038dbcc5feb2 -> fc0693931521dc2d4389cb9a7d08986f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GW_LEVEL_PACK_SELECT.cs: c1762dbaede4916837ce89fb16438598 -> 244883367230ffdb9d0fa09f0e44b1da
+  custom:scripting/monoscript/fileName/PopupSetting.cs: f293595e5cdad94fb8a0e777ff170ec9 -> 38c07044df705f9ccbd2d7c43b92d62a
+  custom:scripting/monoscript/fileName/WindowManager.cs: 32dd9d022ee6b46e96c3638ee9c5dc40 -> 40d3c63b065a6163fecd8253051f2e19
+  custom:scripting/monoscript/fileName/GW_LEVEL_SELECT.cs: ebb4ffe200962fcf158171a6bc16cc89 -> 8a65b5cf9a9811de16c412f821ce4e54
+  custom:scripting/monoscript/fileName/CloseAnimation.cs: 2283be8876f0e217dc7b1f83fb9dfd5f -> 2eaff00ec097ff98fc4a49bda16059a2
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PopupHint.cs: 902a34234b29bb72265c3380635c54d8 -> ee435bdaa402e78981d150a55aac04bd
+  custom:scripting/monoscript/fileName/GameColorManager.cs: 6d4bfff1ec969d1633b687c53ae42cfb -> f620c888b703762c8955998207f87fcb
+  custom:scripting/monoscript/fileName/ShopItem.cs: 38343d640b81a93024555544923029c8 -> 431be0020e3f8b472e06f13b9dbebccc
